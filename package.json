@@ -1,0 +1,29 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "svg": "svg -d assets/img/row.svg"
+  },
+  "dependencies": {
+    "@svgr/webpack": "^6.2.1",
+    "bootstrap": "^5.1.3",
+    "moralis": "^1.5.3",
+    "next": "latest",
+    "next-images": "^1.8.4",
+    "next-react-svg": "1.1.3",
+    "node-sass": "7.0.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-moralis": "^1.3.2",
+    "web3": "^1.7.1"
+  },
+  "devDependencies": {
+    "@svgr/cli": "^6.2.1",
+    "@types/node": "17.0.4",
+    "@types/react": "17.0.38",
+    "autoprefixer": "^10.4.0",
+    "typescript": "4.5.4"
+  }
+}

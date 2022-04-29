@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" stroke-width="5" stroke-linejoin="round" stroke="#808600" width="29" height="29" viewBox="0 0 422 488">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        fill: none;
+        stroke: #000;
+      }
+
+      .cls-1 {
+        stroke-width: 24.94px;
+      }
+
+      .cls-1, .cls-2 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2, .cls-3 {
+        stroke-width: 19.17px;
+      }
+    </style>
+  </defs>
+  <path id="Polygon_1" data-name="Polygon 1" class="cls-1" d="M211,33.282L393.487,138.641V349.359L211,454.718,28.513,349.359V138.641Z"/>
+  <path class="cls-2" d="M162.574,109A57.4,57.4,0,1,1,105,166.4,57.485,57.485,0,0,1,162.574,109Z"/>
+  <circle id="Ellipse_1_copy" data-name="Ellipse 1 copy" class="cls-3" cx="162.578" cy="315.61" r="57.578"/>
+  <path id="Ellipse_1_copy_2" data-name="Ellipse 1 copy 2" class="cls-2" d="M297.426,193.516a57.4,57.4,0,1,1-57.574,57.4A57.485,57.485,0,0,1,297.426,193.516Z"/>
+</svg>

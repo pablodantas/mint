@@ -1,0 +1,127 @@
+.btnimg {
+  height: 94px;
+  width: 94px;
+  border-radius: 50%;
+  border: 1px solid #1479f7;
+  background-color: #1479f7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.imgrow {
+  background: url("../assets/img/row.svg");
+  width: 55px;
+  height: 55px;
+  background-size: contain;
+}
+input[type="file"] {
+  display: none;
+}
+
+.mint {
+  height: 40px !important;
+  width: 140px !important;
+  border: 1px solid #ced4da !important;
+}
+
+.c {
+  color: #2e2f306b;
+  font-size: 10px;
+}
+
+.inputTitle {
+  height: 44px !important;
+  width: 268px !important;
+  border-radius: 10px !important;
+}
+
+.inputDescription {
+  height: 80px !important;
+  width: 268px !important;
+  border-radius: 10px !important;
+}
+
+.card {
+  height: 405px;
+  width: 100%;
+  border-radius: 10px;
+  border-color: #fafafa;
+  background-color: #fafafa;
+}
+
+p {
+  margin: 0px !important;
+  padding: 0px !important;
+  display: flex !important;
+  color: #0000006e;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #000000 !important;
+  background-color: #ffffff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  -webkit-appearance: none;
+  appearance: none;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.rowa {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(-1 * var(--bs-gutter-y));
+  margin-right: calc(-0.5 * var(--bs-gutter-x));
+  margin-left: calc(-0.5 * var(--bs-gutter-x));
+}
+
+
+.navAvatar{
+  width: 32px !important;
+  height: 32px !important;
+  background: #d1d1d1 !important;
+  border-radius: 100%;
+}
+
+nav{
+  width: 100% !important;
+}
+
+.avatar{
+  width: 33px !important;
+  border-radius: 100% !important;
+}
+
+.logosvgsvg{
+  background: url(../assets/img/svg.svg);
+  width: 33px;
+  height: 33px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.logonftapp{
+  background: url(../assets/img/logo_1.png);
+  width: 55px;
+  height: 16px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/* Hernan */
+@media (max-width: 992px){
+  .rowNav{
+    flex-direction: column;
+  }
+  #root > nav > div > div > div:nth-child(1){
+    justify-content: space-between;
+  }
+}
